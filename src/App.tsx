@@ -1,8 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from "react";
 
+import { Header } from "./features/header/Header";
+import { PhonesTable } from "./features/phonesTable/PhonesTable";
+
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <main>
+        <PhonesTable />
+      </main>
+    </div>
+  );
+}
+/*
 function App() {
   return (
     <div className="App">
@@ -54,5 +67,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;

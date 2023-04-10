@@ -1,0 +1,26 @@
+.properties_container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 260px repeat(auto-fit, minmax(0, 1fr));
+  padding: 33px 0;
+  border-top: 1px solid #cdcfd2;
+}
+.properties_container:last-child {
+  border-bottom: 1px solid #cdcfd2;
+}
+
+.properties_text_name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #a4a9b9;
+  overflow-wrap: break-word;
+}
+.properties_text_value {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3b4157;
+  text-align: start;
+}

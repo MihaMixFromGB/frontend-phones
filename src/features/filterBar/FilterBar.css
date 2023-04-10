@@ -1,0 +1,76 @@
+.phonesTable__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.phonesTable_header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #828286;
+}
+.phonesTable_text {
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 60px; */
+  letter-spacing: 0.02em;
+  color: #0d5adc;
+}
+
+.phonesTable__header__range {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.phonesTable__header__range p {
+  margin-right: 5px;
+}
+.phonesTable__header__range_list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 2px;
+}
+
+.phonesTable__header__range__item {
+  display: flex;
+  border-bottom: 1px solid white;
+}
+.phonesTable__header__range__item_active {
+  border-bottom: 1px solid #0d5adc;
+}
+.phonesTable__header__range li button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.phonesTable__difference {
+  align-self: end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.phonesTable__difference input {
+  margin-right: 14px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.phonesTable__difference label {
+  cursor: pointer;
+}
+
+.phonesTable__phones {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 260px repeat(auto-fit, minmax(0, 1fr));
+  margin-bottom: 77px;
+}

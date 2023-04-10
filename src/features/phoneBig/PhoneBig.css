@@ -1,0 +1,34 @@
+.phone_container {
+  justify-self: start;
+}
+
+.phone_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: auto;
+}
+
+.phone_item div:first-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone_item p {
+  margin-top: 8px;
+}
+
+.phone_item_compare {
+  align-self: end;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.phone_item_text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3b4157;
+}
